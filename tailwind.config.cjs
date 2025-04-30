@@ -10,7 +10,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        // add custom colors (outside of tailwind)
+        green: "#005555",
+        lightgreen: "#008080",
+        gray: "#444444",
+        lightgray: "#F0F5F5",
       },
       spacing: {
         // add custom spacings (outside of tailwind)
@@ -26,7 +29,10 @@ module.exports = {
         primary: ["Arial", "Helvetica", "sans-serif"],
       },
       fontSize: {
-        // Add custom font sizes (outside of tailwind)
+        xs: "12px", 
+        md: "16px",
+        mmd: "20px",
+        xl: "24px",
       },
       letterSpacing: theme => ({
         ...theme("width"),
